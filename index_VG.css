@@ -2,3 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* Colors */
+  --color-primary: rgba(255, 255, 255, 0.6);
+  --color-secondary: salmon;
+  --color-tertiary: skyblue;
+  --color-white: white;
+  /* Font families */
+  --font-family-primary: "Bungee Shade";
+  --font-family-secondary: "Bungee Outline";
+  --font-family-tertiary: "Barlow Condensed";
+  --font-family-quaternary: "Barlow Semi Condensed";
+}
