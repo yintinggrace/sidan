@@ -204,7 +204,7 @@ article > div:nth-child(2) img:first-child {
   left: 0;
   top: 0;
   z-index: 1;
-  transition: all 1s;
+  transition: opacity 1s;
 }
 
 article > div:nth-child(2) img:first-child:hover {
@@ -409,7 +409,7 @@ footer {
 
   article {
     grid-template-columns: 48vw auto;
-    grid-template-rows: 65vw auto auto;
+    grid-template-rows: 60vw auto auto;
   }
 
   /* Film's info */
@@ -436,10 +436,20 @@ footer {
     grid-column: 1;
     margin-right: 10px;
     width: calc(100% - 10px);
+    border-radius: 15px 0 0 15px;
+  }
+
+  article:first-child > div:nth-child(2) {
+    background-color: var(--color-tertiary);
+  }
+
+  article:last-child > div:nth-child(2) {
+    background-color: black;
   }
 
   article > div:nth-child(2) img {
-    border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 0;
+    height: 85%;
   }
 
   article > div:nth-child(2) img:first-child:hover {
@@ -554,6 +564,11 @@ footer {
   }
 
   /* posters */
+  article:first-child > div:nth-child(2),
+  article:last-child > div:nth-child(2) {
+    background-color: transparent;
+  }
+
   article > div:nth-child(2) {
     margin-right: 0;
     width: 100%;
@@ -561,6 +576,7 @@ footer {
 
   article > div:nth-child(2) img {
     border-radius: 15px 15px 0 0;
+    height: 100%;
   }
 
   /* characters */
