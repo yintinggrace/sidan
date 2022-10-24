@@ -41,7 +41,7 @@
 }
 
 body {
-  color: var(--color-primary);
+  color: var(--color-white);
   font-family: var(--font-family-tertiary);
   font-size: var(--font-size-px-c);
 }
@@ -66,6 +66,7 @@ body > div > div {
  **  Header  **
  ***************/
 header h1 {
+  color: var(--color-primary);
   font-family: var(--font-family-primary);
   font-size: var(--font-size-px-f);
 }
@@ -102,7 +103,6 @@ nav div:nth-child(2) {
   font-weight: 700;
   font-family: var(--font-family-quaternary);
   outline: 1px solid var(--color-white);
-  border-color: var(--color-white);
   box-shadow: 0 0 8px var(--color-white);
 }
 
@@ -114,7 +114,6 @@ article {
   border-radius: 15px;
   border: 1px solid var(--color-white);
   background-color: rgb(105, 105, 105, 0.3);
-  color: var(--color-white);
   display: grid;
   grid-template-columns: auto 32vw;
   grid-template-rows: 32vw auto auto;
@@ -125,7 +124,7 @@ article:first-child {
   margin-bottom: 15px;
 }
 
-/* team */
+/* film's info: team */
 article > div:first-child > div:nth-child(2) {
   padding: 48px 0;
 }
