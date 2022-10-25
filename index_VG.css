@@ -17,33 +17,33 @@
   /* Font size base */
   --font-size-base: 1;
   /* Font sizes, px */
-  --font-size-px-a: calc(var(--font-size-base) * 11px);
-  --font-size-px-b: calc(var(--font-size-base) * 13px);
-  --font-size-px-c: calc(var(--font-size-base) * 17px);
-  --font-size-px-d: calc(var(--font-size-base) * 22px);
-  --font-size-px-e: calc(var(--font-size-base) * 28px);
-  --font-size-px-f: calc(var(--font-size-base) * 55px);
+  --font-size-px-characterli900: calc(var(--font-size-base) * 11px);
+  --font-size-px-characterli-body900: calc(var(--font-size-base) * 13px);
+  --font-size-px-body-characterh1-characterh1900: calc(var(--font-size-base) * 17px);
+  --font-size-px-navdiv-articleh2-articleh1900: calc(var(--font-size-base) * 22px);
+  --font-size-px-articleh1: calc(var(--font-size-base) * 28px);
+  --font-size-px-headerh1: calc(var(--font-size-base) * 55px);
   /* Font sizes, vw */
-  --font-size-vw-a: calc(var(--font-size-base) * 1.2vw);
-  --font-size-vw-b: calc(var(--font-size-base) * 1.5vw);
-  --font-size-vw-c: calc(var(--font-size-base) * 2vw);
-  --font-size-vw-d: calc(var(--font-size-base) * 2.2vw);
-  --font-size-vw-e: calc(var(--font-size-base) * 2.5vw);
-  --font-size-vw-f: calc(var(--font-size-base) * 3vw);
-  --font-size-vw-g: calc(var(--font-size-base) * 3.2vw);
-  --font-size-vw-h: calc(var(--font-size-base) * 3.5vw);
-  --font-size-vw-i: calc(var(--font-size-base) * 4vw);
-  --font-size-vw-j: calc(var(--font-size-base) * 4.4vw);
-  --font-size-vw-k: calc(var(--font-size-base) * 4.5vw);
-  --font-size-vw-l: calc(var(--font-size-base) * 6.5vw);
-  --font-size-vw-m: calc(var(--font-size-base) * 12vw);
-  --font-size-vw-n: calc(var(--font-size-base) * 15vw);
+  --font-size-vw-characterli1111: calc(var(--font-size-base) * 1.2vw);
+  --font-size-vw-body1111-characterh21111: calc(var(--font-size-base) * 1.5vw);
+  --font-size-vw-navdiv1111-articleh21111-characterli800: calc(var(--font-size-base) * 2vw);
+  --font-size-vw-body800: calc(var(--font-size-base) * 2.2vw);
+  --font-size-vw-article1111-navdiv800: calc(var(--font-size-base) * 2.5vw);
+  --font-size-vw-characterh2800-navdiv500-articleul500-footer: calc(var(--font-size-base) * 3vw);
+  --font-size-vw-characterli500: calc(var(--font-size-base) * 3.2vw);
+  --font-size-vw-articleh2800: calc(var(--font-size-base) * 3.5vw);
+  --font-size-vw-filminfo500: calc(var(--font-size-base) * 4vw);
+  --font-size-vw-characterh2500: calc(var(--font-size-base) * 4.4vw);
+  --font-size-vw-articleh1800-articleh2500: calc(var(--font-size-base) * 4.5vw);
+  --font-size-vw-filminfoh1500: calc(var(--font-size-base) * 6.5vw);
+  --font-size-vw-headerh1800: calc(var(--font-size-base) * 12vw);
+  --font-size-vw-headerh1500: calc(var(--font-size-base) * 15vw);
 }
 
 body {
   color: var(--color-white);
   font-family: var(--font-family-tertiary);
-  font-size: var(--font-size-px-c);
+  font-size: var(--font-size-px-body-characterh1-characterh1900);
 }
 
 body > div {
@@ -68,7 +68,7 @@ body > div > div {
 header h1 {
   color: var(--color-primary);
   font-family: var(--font-family-primary);
-  font-size: var(--font-size-px-f);
+  font-size: var(--font-size-px-headerh1);
 }
 
 /***************
@@ -80,7 +80,7 @@ nav {
 
 nav div {
   font-family: var(--font-family-quaternary);
-  font-size: var(--font-size-px-d);
+  font-size: var(--font-size-px-navdiv-articleh2-articleh1900);
   background-color: var(--color-primary);
   color: rgb(39, 39, 39);
   width: 80%;
@@ -163,13 +163,13 @@ article ul {
 /* Film's info */
 article h1 {
   font-family: var(--font-family-secondary);
-  font-size: var(--font-size-px-e);
+  font-size: var(--font-size-px-articleh1);
 }
 
 article h2 {
   font-weight: 700;
   font-family: var(--font-family-quaternary);
-  font-size: var(--font-size-px-d);
+  font-size: var(--font-size-px-navdiv-articleh2-articleh1900);
 }
 
 article > div:first-child > div:nth-child(2) li{
@@ -232,11 +232,11 @@ article > div:nth-child(3) > div:last-child {
 }
 
 article > div:nth-child(3) > div > h2 {
-  font-size: var(--font-size-px-c);
+  font-size: var(--font-size-px-body-characterh1-characterh1900);
 }
 
 article > div:nth-child(3) > div > ul {
-  font-size: var(--font-size-px-b);
+  font-size: var(--font-size-px-characterli-body900);
 }
 
 /******************************
@@ -344,48 +344,48 @@ footer {
  ******************************/
 @media (max-width: 1111px) {
   body {
-    font-size: var(--font-size-vw-b);
+    font-size: var(--font-size-vw-body1111-characterh21111);
   }
 
   nav div {
-    font-size: var(--font-size-vw-c);
+    font-size: var(--font-size-vw-navdiv1111-articleh21111-characterli800);
   }
 
   article > div > div > h1 {
-    font-size: var(--font-size-vw-e);
+    font-size: var(--font-size-vw-article1111-navdiv800);
   }
 
   article > div > div > h2 {
-    font-size: var(--font-size-vw-c);
+    font-size: var(--font-size-vw-navdiv1111-articleh21111-characterli800);
   }
 
   article > div:nth-child(3) > div > h2 {
-    font-size: var(--font-size-vw-b);
+    font-size: var(--font-size-vw-body1111-characterh21111);
   }
 
   article > div:nth-child(3) > div > ul {
-    font-size: var(--font-size-vw-a);
+    font-size: var(--font-size-vw-characterli1111);
   }
 }
 
-/*****************************
- **  Media queries (900px)  **
- *****************************/
+/******************************
+ **  Media queries (801px-900px)  **
+ ******************************/
 @media (min-width: 801px) and (max-width: 900px) {
   body {
-    font-size: var(--font-size-px-b);
+    font-size: var(--font-size-px-characterli-body900);
   }
 
   article > div > div > h1 {
-    font-size: var(--font-size-px-d);
+    font-size: var(--font-size-px-navdiv-articleh2-articleh1900);
   }
 
   article > div > div > h2 {
-    font-size: var(--font-size-px-c);
+    font-size: var(--font-size-px-body-characterh1-characterh1900);
   }
 
   article > div:nth-child(3) > div > ul {
-    font-size: var(--font-size-px-a);
+    font-size: var(--font-size-px-characterli900);
   }
 }
 
@@ -394,16 +394,16 @@ footer {
  *****************************/
 @media (max-width: 800px) {
   body {
-    font-size: var(--font-size-vw-d);
+    font-size: var(--font-size-vw-body800);
   }
 
   header h1 {
     text-align: center;
-    font-size: var(--font-size-vw-m);
+    font-size: var(--font-size-vw-headerh1800);
   }
 
   nav div {
-    font-size: var(--font-size-vw-e);
+    font-size: var(--font-size-vw-article1111-navdiv800);
   }
 
   article {
@@ -419,11 +419,11 @@ footer {
   }
 
   article > div:first-child > div:first-child > h1 {
-    font-size: var(--font-size-vw-k);
+    font-size: var(--font-size-vw-articleh1800-articleh2500);
   }
 
   article > div:first-child > div:first-child > h2 {
-    font-size: var(--font-size-vw-h);
+    font-size: var(--font-size-vw-articleh2800);
   }
 
   article > div:first-child > div:nth-child(3) p {
@@ -474,12 +474,11 @@ footer {
   }
 
   article > div:nth-child(3) > div > h2 {
-    font-size: var(--font-size-vw-f);
-    word-break: break-all;
+    font-size: var(--font-size-vw-characterh2800-navdiv500-articleul500-footer);
   }
 
   article > div:nth-child(3) > div > ul {
-    font-size: var(--font-size-vw-c);
+    font-size: var(--font-size-vw-navdiv1111-articleh21111-characterli800);
   }
 
   article > div:nth-child(3) > div:first-child {
@@ -532,11 +531,11 @@ footer {
 
   header h1 {
     text-align: center;
-    font-size: var(--font-size-vw-n);
+    font-size: var(--font-size-vw-headerh1500);
   }
 
   nav div {
-    font-size: var(--font-size-vw-f);
+    font-size: var(--font-size-vw-characterh2800-navdiv500-articleul500-footer);
   }
 
   article {
@@ -550,16 +549,16 @@ footer {
   }
 
   article > div:first-child > div:first-child > h1 {
-    font-size: var(--font-size-vw-l);
+    font-size: var(--font-size-vw-filminfoh1500);
   }
 
   article > div:first-child > div:first-child > h2 {
-    font-size: var(--font-size-vw-k);
+    font-size: var(--font-size-vw-articleh1800-articleh2500);
   }
 
   article > div:first-child > div:nth-child(2),
   article > div:first-child > div:last-child {
-    font-size: var(--font-size-vw-i);
+    font-size: var(--font-size-vw-filminfo500);
   }
 
   /* posters */
@@ -594,18 +593,18 @@ footer {
   }
 
   article > div:nth-child(3) > div > h2 {
-    font-size: var(--font-size-vw-j);
+    font-size: var(--font-size-vw-characterh2500);
   }
 
   article > div:nth-child(3) > div > ul {
-    font-size: var(--font-size-vw-g);
+    font-size: var(--font-size-vw-characterli500);
   }
 
   /* Article: row in bottom */
   article > ul {
     grid-row: 4;
     grid-template-columns: repeat(3, 1fr);
-    font-size: var(--font-size-vw-f);
+    font-size: var(--font-size-vw-characterh2800-navdiv500-articleul500-footer);
   }
 
   article:first-child > ul > li:nth-child(3) {
@@ -639,6 +638,6 @@ footer {
 
   /* footer */
   footer {
-    font-size: var(--font-size-vw-f);
+    font-size: var(--font-size-vw-characterh2800-navdiv500-articleul500-footer);
   }
 }
